@@ -105,23 +105,33 @@ label.animationKitTypewriter(text: "Hello World", characterDelay: 0.05, hapticsE
 
 ## 🌟 Advanced Presets / 고급 프리셋
 
-We provide complex, production-ready presets out of the box:  
-(실무에 바로 적용 가능한 복잡한 애니메이션 프리셋을 기본 제공합니다.)
+We provide complex, production-ready presets out of the box. Click on each animation to see detailed documentation and demo GIFs:  
+(실무에 바로 적용 가능한 복잡한 애니메이션 프리셋을 기본 제공합니다. 각 애니메이션을 클릭하여 상세 문서와 시연 GIF를 확인하세요:)
 
-- **Confetti**: High-performance particle system using `CAEmitterLayer`. Perfect for celebrations and goal completions.  
+- [**Confetti**](Docs/Animations/Confetti.md): High-performance particle system using `CAEmitterLayer`. Perfect for celebrations and goal completions.  
   (CAEmitterLayer 기반 고성능 파티클 시스템. 결제 완료나 목표 달성에 적합합니다.)
-- **Shimmer**: Light reflection effect commonly used in skeleton UI loading screens.  
+- [**Shimmer**](Docs/Animations/Shimmer.md): Light reflection effect commonly used in skeleton UI loading screens.  
   (스켈레톤 UI 로딩 화면에서 자주 사용되는 빛 반사 효과입니다.)
-- **Rolling Number**: Slot-machine style number scrolling effect for balances or scores.  
+- [**Rolling Number**](Docs/Animations/RollingNumber.md): Slot-machine style number scrolling effect for balances or scores.  
   (금융 앱 잔액 표시 등에 적합한 슬롯머신 스타일의 숫자 스크롤 효과입니다.)
-- **Ripple**: Material Design style ink drop effect spreading from a touch point.  
+- [**Ripple**](Docs/Animations/Ripple.md): Material Design style ink drop effect spreading from a touch point.  
   (터치 지점에서 퍼져나가는 Material Design 스타일의 잉크 드롭 효과입니다.)
-- **3D Tilt**: Drag-based 3D parallax card effect. Great for premium card UIs.  
+- [**3D Tilt**](Docs/Animations/Tilt3D.md): Drag-based 3D parallax card effect. Great for premium card UIs.  
   (드래그 기반 3D 패럴랙스 카드 효과. 프리미엄 카드 UI에 적합합니다.)
-- **Typewriter**: Character-by-character text reveal effect. Ideal for chatbot responses.  
+- [**Typewriter**](Docs/Animations/Typewriter.md): Character-by-character text reveal effect. Ideal for chatbot responses.  
   (한 글자씩 순서대로 나타나는 효과. 챗봇 응답 텍스트 표시에 적합합니다.)
-- **Gooey**: Liquid viscous morphing effect using blur and high-contrast filters.  
+- [**Gooey**](Docs/Animations/Gooey.md): Liquid viscous morphing effect using blur and high-contrast filters.  
   (블러와 고대비 필터를 활용한 액체 점성 효과입니다.)
+
+---
+
+## ✨ Basic Presets / 기본 프리셋
+
+Basic animations also have their own documentation and demo pages:  
+(기본 애니메이션 효과들에 대한 상세 문서와 데모도 제공합니다:)
+
+- [**Fade**](Docs/Animations/Fade.md) / [**Pop**](Docs/Animations/Pop.md) / [**Shake**](Docs/Animations/Shake.md) / [**Glow**](Docs/Animations/Glow.md)
+- [**Spin**](Docs/Animations/Spin.md) / [**Flip**](Docs/Animations/Flip.md) / [**Morph**](Docs/Animations/Morph.md)
 
 ---
 
