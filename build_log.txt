@@ -1,0 +1,218 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme SolarAnimationsKit -destination "generic/platform=iOS Simulator"
+
+Resolve Package Graph
+2026-07-28 12:51:08.308 xcodebuild[96328:6550944] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+
+
+Resolved source packages:
+  SolarAnimationsKit: /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (2 targets)
+    Target 'SolarAnimationsKit' in project 'SolarAnimationsKit'
+        ➜ Explicit dependency on target 'SolarAnimationsKit' in project 'SolarAnimationsKit'
+    Target 'SolarAnimationsKit' in project 'SolarAnimationsKit' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 213e614c4871bd4058b9ae213ae6ee1c
+Build description path: /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/XCBuildData/213e614c4871bd4058b9ae213ae6ee1c.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
+
+SwiftDriver SolarAnimationsKit normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SolarAnimationsKit -Onone @/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/x86_64/SolarAnimationsKit.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios15.0-simulator -g -module-cache-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/x86_64/SolarAnimationsKit-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/x86_64/SolarAnimationsKit.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/gimtaehun/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -package-name solaranimationskit -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/x86_64/SolarAnimationsKit_const_extract_protocols.json -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/DerivedSources-normal/x86_64 -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/DerivedSources/x86_64 -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/x86_64/SolarAnimationsKit-Swift.h -working-directory /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver SolarAnimationsKit normal arm64 com.apple.xcode.tools.swift.compiler (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name SolarAnimationsKit -Onone @/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/SolarAnimationsKit.SwiftFileList -DSWIFT_PACKAGE -DDEBUG -DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -DXcode -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios15.0-simulator -g -module-cache-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/SolarAnimationsKit-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/SolarAnimationsKit.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/gimtaehun/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -package-name solaranimationskit -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/SolarAnimationsKit_const_extract_protocols.json -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/DerivedSources-normal/arm64 -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/DerivedSources/arm64 -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/SolarAnimationsKit-Swift.h -working-directory /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ AnimationContext.swift,\ AnimationVendor.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/AnimationContext.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/AnimationVendor.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal arm64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/AnimationContext.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftCompile normal arm64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/AnimationVendor.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftCompile normal x86_64 Compiling\ AnimatableLayerCommand.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Catalog/AnimatableLayerCommand.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Catalog/AnimatableLayerCommand.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftCompile normal arm64 Compiling\ AnimationKitModifier.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationKitModifier.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+SwiftCompile normal arm64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationKitModifier.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftCompile normal arm64 Compiling\ AnimationCatalogView.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationCatalogView.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+SwiftCompile normal arm64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationCatalogView.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationCatalogView.swift:258:9: error: switch must be exhaustive
+        switch preset {
+        ^
+/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationCatalogView.swift:258:9: note: add missing case: '.shimmer'
+        switch preset {
+        ^
+/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationCatalogView.swift:258:9: note: add missing case: '.confetti'
+        switch preset {
+        ^
+/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationCatalogView.swift:258:9: note: add missing cases
+        switch preset {
+        ^
+
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Catalog/AnimatableLayerCommand.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Catalog/AnimationCatalog.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Catalog/AnimationPreset.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/AnimationContext.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/AnimationEngine.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/AnimationTheme.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/AnimationToken.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/AnimationVendor.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/BaseAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/ParameterInfo.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/PerformanceProfile.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/PresetMetadata.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/Protocols/SolarAnimatable.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/SolarAnimationProfiler.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Custom/HeartbeatAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Custom/WiggleAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Director/AnimationSequenceBuilder.swift -primary-file /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationCatalogView.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationKitModifier.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/View+AnimationKit.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/UIKit/UIView+AnimationKit.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/UIKit/UIViewController+AnimationKit.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/ConfettiAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/FadeAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/PopAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/ShakeAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/ShimmerAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/SolarAnimationKit.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/SolarAnimationsKit.swift -emit-dependencies-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/AnimationCatalogView.d -emit-const-values-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/AnimationCatalogView.swiftconstvalues -emit-reference-dependencies-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/AnimationCatalogView.swiftdeps -serialize-diagnostics-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/AnimationCatalogView.dia -target arm64-apple-ios15.0-simulator -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/SolarAnimationsKit-dependencies-2.json -debug-module-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/SolarAnimationsKit.swiftmodule -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -I /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Products/Debug-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Products/Debug-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk/Developer/Library/Frameworks -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -profile-generate -profile-coverage-mapping -swift-version 6 -Onone -D SWIFT_PACKAGE -D DEBUG -D SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE -D Xcode -serialize-debugging-options -const-gather-protocols-file /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/SolarAnimationsKit_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/gimtaehun/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode -enable-anonymous-context-mangled-names -file-compilation-dir /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/swift-overrides.hmap -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/DerivedSources-normal/arm64 -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/DerivedSources/arm64 -Xcc -I/Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/DerivedSources -Xcc -DSWIFT_PACKAGE -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name SolarAnimationsKit -package-name solaranimationskit -frontend-parseable-output -disable-clang-spi -clang-target arm64-apple-ios26.5-simulator -target-sdk-version 26.5 -target-sdk-name iphonesimulator26.5 -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -o /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Build/Intermediates.noindex/SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/AnimationCatalogView.o -index-unit-output-path /SolarAnimationsKit.build/Debug-iphonesimulator/SolarAnimationsKit.build/Objects-normal/arm64/AnimationCatalogView.o -index-store-path /Users/gimtaehun/Library/Developer/Xcode/DerivedData/SolarAnimationsKit-fqxuzgwodovzqncyeycskhwwsdbo/Index.noindex/DataStore -index-system-modules
+SwiftEmitModule normal arm64 Emitting\ module\ for\ SolarAnimationsKit (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+EmitSwiftModule normal arm64 (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftCompile normal arm64 Compiling\ FadeAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/FadeAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal arm64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/FadeAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftCompile normal arm64 Compiling\ BaseAnimation.swift,\ SolarAnimatable.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/BaseAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/Protocols/SolarAnimatable.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal arm64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/BaseAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftCompile normal arm64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/Protocols/SolarAnimatable.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftCompile normal arm64 Compiling\ HeartbeatAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Custom/HeartbeatAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal arm64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Custom/HeartbeatAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ SolarAnimationsKit (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+EmitSwiftModule normal x86_64 (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling FadeAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ ShimmerAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/ShimmerAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/ShimmerAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling BaseAnimation.swift, SolarAnimatable.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ UIView+AnimationKit.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/UIKit/UIView+AnimationKit.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/UIKit/UIView+AnimationKit.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling AnimationContext.swift, AnimationVendor.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ SolarAnimationKit.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/SolarAnimationKit.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/SolarAnimationKit.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling HeartbeatAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ ConfettiAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/ConfettiAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/ConfettiAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling AnimatableLayerCommand.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ FadeAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/FadeAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/FadeAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling AnimationKitModifier.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ SolarAnimatable.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/Protocols/SolarAnimatable.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/Protocols/SolarAnimatable.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling FadeAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ PopAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/PopAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/PopAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling SolarAnimationKit.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ ShakeAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/ShakeAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Presets/ShakeAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftCompile normal x86_64 Compiling\ HeartbeatAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Custom/HeartbeatAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Custom/HeartbeatAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+    cd /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.swiftpm/xcode
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling SolarAnimatable.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ SolarAnimationProfiler.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/SolarAnimationProfiler.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal arm64 Compiling\ SolarAnimationKit.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/SolarAnimationKit.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling ShimmerAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ BaseAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Core/BaseAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling PopAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ View+AnimationKit.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/View+AnimationKit.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling ShakeAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+SwiftCompile normal x86_64 Compiling\ WiggleAnimation.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Custom/WiggleAnimation.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftCompile normal arm64 /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationCatalogView.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+	SwiftCompile normal arm64 Compiling\ AnimationCatalogView.swift /Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/Sources/SolarAnimationsKit/Platform/SwiftUI/AnimationCatalogView.swift (in target 'SolarAnimationsKit' from project 'SolarAnimationsKit')
+	Building workspace SolarAnimationsKit with scheme SolarAnimationsKit
+(3 failures)

@@ -1,0 +1,19 @@
+name: Docs
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-docs:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build DocC
+      run: |
+        xcodebuild documentation build -scheme SolarAnimationsKit -destination 'platform=iOS Simulator,name=iPhone 15'
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .build/docs
