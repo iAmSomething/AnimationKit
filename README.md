@@ -125,15 +125,6 @@ We provide complex, production-ready presets out of the box. Click on each anima
 
 ---
 
-## ✨ Basic Presets / 기본 프리셋
-
-Basic animations also have their own documentation and demo pages:  
-(기본 애니메이션 효과들에 대한 상세 문서와 데모도 제공합니다:)
-
-- [**Fade**](docs/Animations/Fade.md) / [**Pop**](docs/Animations/Pop.md) / [**Shake**](docs/Animations/Shake.md) / [**Glow**](docs/Animations/Glow.md)
-- [**Spin**](docs/Animations/Spin.md) / [**Flip**](docs/Animations/Flip.md) / [**Morph**](docs/Animations/Morph.md)
-
----
 
 ## 📳 Haptics Architecture / 햅틱 아키텍처
 
