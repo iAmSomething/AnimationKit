@@ -123,7 +123,7 @@ public extension View {
 
     func animationKitMarquee(text: String, duration: TimeInterval = 5.0) -> some View {
         self.modifier(
-            MarqueeModifier(text: text, duration: duration, content: AnyView(self))
+            MarqueeModifier(text: text, duration: duration)
         )
     }
 
@@ -142,7 +142,7 @@ public extension View {
 
     func animationKitRubberband(tension: CGFloat = 0.5, hapticsEnabled: Bool = false) -> some View {
         self.modifier(
-            RubberbandModifier(tension: tension, hapticsEnabled: hapticsEnabled, content: AnyView(self))
+            RubberbandModifier(tension: tension, hapticsEnabled: hapticsEnabled)
         )
     }
 }

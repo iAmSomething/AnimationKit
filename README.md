@@ -120,12 +120,18 @@ We provide complex, production-ready presets out of the box. Click on each anima
   (드래그 기반 3D 패럴랙스 카드 효과. 프리미엄 카드 UI에 적합합니다.)
 - [**Typewriter**](docs/Animations/Typewriter.md): Character-by-character text reveal effect. Ideal for chatbot responses.  
   (한 글자씩 순서대로 나타나는 효과. 챗봇 응답 텍스트 표시에 적합합니다.)
-- [Gooey (액체 모핑)](docs/Animations/Gooey.md)
-- [Sparkle (별빛 폭죽)](docs/Animations/Sparkle.md) - 트위터 좋아요 스타일 폭죽
-- [Marquee (전광판 무한 스크롤)](docs/Animations/Marquee.md) - 넘치는 텍스트 롤링 효과
-- [Progressive Blur (점진적 블러)](docs/Animations/ProgressiveBlur.md) - 고급스러운 Glassmorphism
-- [Pulse (파장 숨쉬기)](docs/Animations/Pulse.md) - 라이브 인디케이터
-- [Rubberband (고무줄 당기기)](docs/Animations/Rubberband.md) - 스프링 텐션 드래그 효과
+- [**Gooey**](docs/Animations/Gooey.md): Liquid/gooey morphing effect using blur + contrast threshold technique. Ideal for FAB menus or tab bar indicators.  
+  (블러와 고대비 합성 기법을 활용한 액체 점성 모핑 효과. FAB 메뉴 열기나 탭바 인디케이터에 적합합니다.)
+- [**Sparkle**](docs/Animations/Sparkle.md): Twitter-like like button particle explosion effect.  
+  (트위터 좋아요 버튼 스타일의 흩뿌려지는 원형 파티클 폭발 효과입니다.)
+- [**Marquee**](docs/Animations/Marquee.md): Infinite horizontal scrolling for long text within a constrained area.  
+  (한정된 영역에서 넘치는 텍스트를 무한히 가로 스크롤하여 보여주는 전광판 효과입니다.)
+- [**Progressive Blur**](docs/Animations/ProgressiveBlur.md): A smooth gradient-masked blur effect for premium glassmorphism UIs.  
+  (그라데이션 마스크를 통해 서서히 흐려지는 고급스러운 Glassmorphism 블러 효과를 제공합니다.)
+- [**Pulse**](docs/Animations/Pulse.md): Infinite radiating wave effect. Perfect for live indicators or recording buttons.  
+  (중심에서 밖으로 퍼져나가는 무한 파장 효과. 라이브 인디케이터나 녹음 버튼 등에 사용됩니다.)
+- [**Rubberband**](docs/Animations/Rubberband.md): Spring tension drag effect providing physical resistance feedback.  
+  (드래그 시 물리적인 텐션 저항을 느끼게 하고 놓으면 원래 자리로 탄력 있게 돌아가는 고무줄 효과입니다.)
 
 ---
 

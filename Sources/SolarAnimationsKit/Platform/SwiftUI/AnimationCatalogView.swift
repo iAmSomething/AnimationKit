@@ -263,7 +263,6 @@ struct PresetDetailView: View {
         case .scaleDown: return ".scaleDown"
         case .pop: return ".pop"
         case .shake: return ".shake"
-        case .pulse: return ".pulse"
         case .bounceIn: return ".bounceIn"
         case .bounceOut: return ".bounceOut"
         case .flip(let axis): return ".flip(axis: .\(axis))"
@@ -278,6 +277,11 @@ struct PresetDetailView: View {
         case .tilt3d: return ".tilt3d"
         case .typewriter(let text): return ".typewriter(text: \"\(text)\")"
         case .gooey: return ".gooey"
+        case .sparkle(let isTriggered, _, _): return ".sparkle(isTriggered: \(isTriggered))"
+        case .marquee(let text, let duration): return ".marquee(text: \"\(text)\", duration: \(duration))"
+        case .progressiveBlur(_, _): return ".progressiveBlur"
+        case .pulse(let isActive, _, _, _): return ".pulse(isActive: \(isActive))"
+        case .rubberband(let tension, _): return ".rubberband(tension: \(tension))"
         case .custom: return ".custom(name: \"...\")"
         }
     }

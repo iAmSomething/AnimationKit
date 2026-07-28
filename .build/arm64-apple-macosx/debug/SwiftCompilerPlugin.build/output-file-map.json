@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/primary.swiftdeps"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-syntax/Sources/SwiftCompilerPlugin/CompilerPlugin.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin.dia"
+  }
+}

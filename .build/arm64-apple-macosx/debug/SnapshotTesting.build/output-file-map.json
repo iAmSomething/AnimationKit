@@ -1,0 +1,243 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/primary.swiftdeps"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/AssertSnapshot.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/AssertSnapshot.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/AssertSnapshot.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/AssertSnapshot~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/AssertSnapshot.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/AssertSnapshot.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Async.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Async.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Async.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Async~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Async.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Async.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Common/Internal.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Internal.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Internal.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Internal~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Internal.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Internal.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Common/PlistEncoder.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/PlistEncoder.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/PlistEncoder.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/PlistEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/PlistEncoder.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/PlistEncoder.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Common/String+SpecialCharacters.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String+SpecialCharacters.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String+SpecialCharacters.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String+SpecialCharacters~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String+SpecialCharacters.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String+SpecialCharacters.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Common/View.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/View.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/View.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/View~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/View.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/View.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Common/XCTAttachment.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/XCTAttachment.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/XCTAttachment.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/XCTAttachment~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/XCTAttachment.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/XCTAttachment.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Diff.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diff.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diff.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diff~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diff.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diff.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Diffing.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diffing.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diffing.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diffing~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diffing.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Diffing.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Extensions/Wait.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Wait.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Wait.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Wait~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Wait.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Wait.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Internal/Deprecations.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Deprecations.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Deprecations.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Deprecations~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Deprecations.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Deprecations.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Internal/RecordIssue.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/RecordIssue.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/RecordIssue.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/RecordIssue~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/RecordIssue.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/RecordIssue.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/SnapshotTestingConfiguration.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotTestingConfiguration.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotTestingConfiguration.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotTestingConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotTestingConfiguration.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotTestingConfiguration.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/SnapshotsTestTrait.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotsTestTrait.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotsTestTrait.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotsTestTrait~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotsTestTrait.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SnapshotsTestTrait.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Snapshotting.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Snapshotting.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Snapshotting~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Snapshotting.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Snapshotting.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/Any.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Any.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Any.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Any~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Any.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Any.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/CALayer.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CALayer.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CALayer.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CALayer~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CALayer.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CALayer.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/CGPath.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CGPath.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CGPath.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CGPath~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CGPath.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CGPath.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/CaseIterable.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CaseIterable.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CaseIterable.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CaseIterable~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CaseIterable.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/CaseIterable.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/Data.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Data.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Data.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Data.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Data.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/Encodable.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Encodable.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Encodable.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Encodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Encodable.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/Encodable.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/NSBezierPath.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSBezierPath.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSBezierPath.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSBezierPath~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSBezierPath.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSBezierPath.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/NSImage.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSImage.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSImage.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSImage~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSImage.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSImage.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/NSView.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSView.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSView.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSView~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSView.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSView.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/NSViewController.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSViewController.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSViewController.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSViewController.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/NSViewController.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/SceneKit.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SceneKit.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SceneKit.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SceneKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SceneKit.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SceneKit.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/SpriteKit.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SpriteKit.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SpriteKit.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SpriteKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SpriteKit.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SpriteKit.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/String.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/String.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/SwiftUIView.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SwiftUIView.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SwiftUIView.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SwiftUIView~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SwiftUIView.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/SwiftUIView.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/UIBezierPath.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIBezierPath.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIBezierPath.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIBezierPath~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIBezierPath.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIBezierPath.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/UIImage.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIImage.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIImage.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIImage~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIImage.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIImage.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/UIView.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIView.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIView.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIView~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIView.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIView.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/UIViewController.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIViewController.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIViewController.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIViewController.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/UIViewController.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting/Snapshotting/URLRequest.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/URLRequest.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/URLRequest.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/URLRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/URLRequest.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/SnapshotTesting.build/URLRequest.dia"
+  }
+}

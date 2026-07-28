@@ -67,27 +67,25 @@ public struct RubberbandAnimation: SolarAnimatable {
     public func makeSwiftUIModifier() -> (AnyView) -> AnyView {
         return { view in
             AnyView(
-                RubberbandModifier(tension: tension, hapticsEnabled: hapticsEnabled, content: view)
+                view.modifier(RubberbandModifier(tension: tension, hapticsEnabled: hapticsEnabled))
             )
         }
     }
 }
 
 // MARK: - SwiftUI Modifier
-struct RubberbandModifier: View {
+struct RubberbandModifier: ViewModifier {
     let tension: CGFloat
     let hapticsEnabled: Bool
-    let content: AnyView
     
     @State private var offset: CGSize = .zero
 
-    nonisolated init(tension: CGFloat, hapticsEnabled: Bool, content: AnyView) {
+    nonisolated init(tension: CGFloat, hapticsEnabled: Bool) {
         self.tension = tension
         self.hapticsEnabled = hapticsEnabled
-        self.content = content
     }
     
-    var body: some View {
+    func body(content: Content) -> some View {
         content
             .offset(offset)
             .gesture(

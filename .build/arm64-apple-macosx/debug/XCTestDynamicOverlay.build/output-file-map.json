@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/primary.swiftdeps"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Internal/Deprecations.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Deprecations.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Deprecations.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Deprecations~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Deprecations.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Deprecations.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/xctest-dynamic-overlay/Sources/XCTestDynamicOverlay/Internal/Exports.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Exports.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Exports.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Exports.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/XCTestDynamicOverlay.build/Exports.dia"
+  }
+}

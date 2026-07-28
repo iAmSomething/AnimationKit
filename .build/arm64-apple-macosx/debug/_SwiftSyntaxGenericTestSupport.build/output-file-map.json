@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/primary.swiftdeps"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxGenericTestSupport/AssertEqualWithDiff.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/AssertEqualWithDiff.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/AssertEqualWithDiff.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/AssertEqualWithDiff~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/AssertEqualWithDiff.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/AssertEqualWithDiff.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxGenericTestSupport/String+TrimmingTrailingWhitespace.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/String+TrimmingTrailingWhitespace.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/String+TrimmingTrailingWhitespace.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/String+TrimmingTrailingWhitespace~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/String+TrimmingTrailingWhitespace.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/_SwiftSyntaxGenericTestSupport.build/String+TrimmingTrailingWhitespace.dia"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/primary.swiftdeps"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/InlineSnapshotTesting/AssertInlineSnapshot.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/AssertInlineSnapshot.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/AssertInlineSnapshot.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/AssertInlineSnapshot~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/AssertInlineSnapshot.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/AssertInlineSnapshot.dia"
+  },
+  "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/checkouts/swift-snapshot-testing/Sources/InlineSnapshotTesting/Exports.swift": {
+    "dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/Exports.d",
+    "object": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/Exports.swift.o",
+    "swiftmodule": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/Exports.swiftdeps",
+    "diagnostics": "/Users/gimtaehun/Desktop/SolarKits/SolarAnimationsKit/.build/arm64-apple-macosx/debug/InlineSnapshotTesting.build/Exports.dia"
+  }
+}
