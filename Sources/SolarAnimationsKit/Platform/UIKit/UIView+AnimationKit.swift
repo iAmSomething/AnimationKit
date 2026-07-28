@@ -132,6 +132,46 @@ public extension UIView {
             completion?()
             token.complete()
 
+        case .sparkle(let isTriggered, let color, let hapticsEnabled):
+            let anim = SparkleAnimation(isTriggered: isTriggered, color: color, hapticsEnabled: hapticsEnabled)
+            if let command = anim.makeUIKitCommands().first {
+                command.apply(on: self.layer, theme: .default)
+            }
+            completion?()
+            token.complete()
+
+        case .marquee(let text, let duration):
+            let anim = MarqueeAnimation(text: text, duration: duration)
+            if let command = anim.makeUIKitCommands().first {
+                command.apply(on: self.layer, theme: .default)
+            }
+            completion?()
+            token.complete()
+
+        case .progressiveBlur(let blurStyle, let direction):
+            let anim = ProgressiveBlurAnimation(blurStyle: blurStyle, direction: direction)
+            if let command = anim.makeUIKitCommands().first {
+                command.apply(on: self.layer, theme: .default)
+            }
+            completion?()
+            token.complete()
+
+        case .pulse(let isActive, let color, let duration, let scale):
+            let anim = PulseAnimation(isActive: isActive, color: color, duration: duration, scale: scale)
+            if let command = anim.makeUIKitCommands().first {
+                command.apply(on: self.layer, theme: .default)
+            }
+            completion?()
+            token.complete()
+
+        case .rubberband(let tension, let hapticsEnabled):
+            let anim = RubberbandAnimation(tension: tension, hapticsEnabled: hapticsEnabled)
+            if let command = anim.makeUIKitCommands().first {
+                command.apply(on: self.layer, theme: .default)
+            }
+            completion?()
+            token.complete()
+
         default:
             completion?()
             token.complete()
@@ -301,6 +341,46 @@ public extension UIView {
     @MainActor
     func animationKitGooey(blurRadius: CGFloat = 20, isActive: Bool = true) {
         let anim = GooeyAnimation(blurRadius: blurRadius, isActive: isActive)
+        if let command = anim.makeUIKitCommands().first {
+            command.apply(on: self.layer, theme: .default)
+        }
+    }
+
+    @MainActor
+    func animationKitSparkle(isTriggered: Bool, color: UIColor = .systemYellow, hapticsEnabled: Bool = false) {
+        let anim = SparkleAnimation(isTriggered: isTriggered, color: color, hapticsEnabled: hapticsEnabled)
+        if let command = anim.makeUIKitCommands().first {
+            command.apply(on: self.layer, theme: .default)
+        }
+    }
+
+    @MainActor
+    func animationKitMarquee(text: String, duration: TimeInterval = 5.0) {
+        let anim = MarqueeAnimation(text: text, duration: duration)
+        if let command = anim.makeUIKitCommands().first {
+            command.apply(on: self.layer, theme: .default)
+        }
+    }
+
+    @MainActor
+    func animationKitProgressiveBlur(blurStyle: UIBlurEffect.Style = .regular, direction: ProgressiveBlurAnimation.Direction = .bottomToTop) {
+        let anim = ProgressiveBlurAnimation(blurStyle: blurStyle, direction: direction)
+        if let command = anim.makeUIKitCommands().first {
+            command.apply(on: self.layer, theme: .default)
+        }
+    }
+
+    @MainActor
+    func animationKitPulse(isActive: Bool = true, color: UIColor = .systemBlue, duration: TimeInterval = 2.0, scale: CGFloat = 1.5) {
+        let anim = PulseAnimation(isActive: isActive, color: color, duration: duration, scale: scale)
+        if let command = anim.makeUIKitCommands().first {
+            command.apply(on: self.layer, theme: .default)
+        }
+    }
+
+    @MainActor
+    func animationKitRubberband(tension: CGFloat = 0.5, hapticsEnabled: Bool = false) {
+        let anim = RubberbandAnimation(tension: tension, hapticsEnabled: hapticsEnabled)
         if let command = anim.makeUIKitCommands().first {
             command.apply(on: self.layer, theme: .default)
         }

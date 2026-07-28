@@ -9,7 +9,6 @@ public enum AnimationPreset: Sendable {
     case scaleDown
     case pop
     case shake
-    case pulse
     case bounceIn
     case bounceOut
     case flip(axis: FlipAxis)
@@ -25,7 +24,13 @@ public enum AnimationPreset: Sendable {
     case typewriter(text: String)
     case gooey
     case custom(String)
-
+    
+    // New Advanced Presets
+    case sparkle(isTriggered: Bool, color: UIColor = .systemYellow, hapticsEnabled: Bool = false)
+    case marquee(text: String, duration: TimeInterval = 5.0)
+    case progressiveBlur(blurStyle: UIBlurEffect.Style = .regular, direction: ProgressiveBlurAnimation.Direction = .bottomToTop)
+    case pulse(isActive: Bool = true, color: UIColor = .systemBlue, duration: TimeInterval = 2.0, scale: CGFloat = 1.5)
+    case rubberband(tension: CGFloat = 0.5, hapticsEnabled: Bool = false)
     public var quickView: PresetMetadata {
         switch self {
         case .fade:
@@ -199,6 +204,69 @@ public enum AnimationPreset: Sendable {
                 outputs: [],
                 performance: PerformanceProfile(classType: .offscreenRisk, estimatedMemoryFootprint: "Medium (~10KB)", recommendedMaxInstances: 3),
                 iconName: "drop.fill"
+            )
+        case .sparkle:
+            return PresetMetadata(
+                id: "sparkle", category: "Advanced", title: "스파클 (별빛 폭죽)",
+                description: "좋아요 버튼 등에 적합한 원형 파티클 폭발 효과입니다.",
+                inputs: [
+                    ParameterInfo(name: "isTriggered", type: "Bool", defaultValue: "false", description: "true로 변경 시 1회 폭죽 발사"),
+                    ParameterInfo(name: "color", type: "UIColor", defaultValue: ".systemYellow", description: "파티클 색상"),
+                    ParameterInfo(name: "hapticsEnabled", type: "Bool", defaultValue: "false", description: "햅틱 피드백 활성화 여부")
+                ],
+                outputs: [],
+                performance: PerformanceProfile(classType: .linearPerFrame, recommendedMaxInstances: 5),
+                iconName: "sparkles"
+            )
+        case .marquee(let text, let duration):
+            return PresetMetadata(
+                id: "marquee", category: "Advanced", title: "마키 (전광판 무한 스크롤)",
+                description: "긴 텍스트를 한정된 영역에서 무한히 가로 스크롤하여 보여줍니다.",
+                inputs: [
+                    ParameterInfo(name: "text", type: "String", defaultValue: text, description: "스크롤할 텍스트"),
+                    ParameterInfo(name: "duration", type: "TimeInterval", defaultValue: "\(duration)", description: "한 사이클 시간")
+                ],
+                outputs: [],
+                performance: PerformanceProfile(classType: .linearPerFrame, recommendedMaxInstances: 3),
+                iconName: "text.and.command.macwindow"
+            )
+        case .progressiveBlur:
+            return PresetMetadata(
+                id: "progressiveBlur", category: "Advanced", title: "점진적 블러 (Progressive Blur)",
+                description: "그라데이션 마스크를 통해 서서히 흐려지는 블러 효과를 제공합니다.",
+                inputs: [
+                    ParameterInfo(name: "blurStyle", type: "UIBlurEffect.Style", defaultValue: ".regular", description: "블러 스타일"),
+                    ParameterInfo(name: "direction", type: "Direction", defaultValue: ".bottomToTop", description: "블러 방향")
+                ],
+                outputs: [],
+                performance: PerformanceProfile(classType: .gpuOptimized, recommendedMaxInstances: 2),
+                iconName: "drop.degreesign"
+            )
+        case .pulse:
+            return PresetMetadata(
+                id: "pulse", category: "Advanced", title: "펄스 (파장 숨쉬기)",
+                description: "라이브 인디케이터나 녹음 버튼 등에 사용되는 무한 파장 효과입니다.",
+                inputs: [
+                    ParameterInfo(name: "isActive", type: "Bool", defaultValue: "true", description: "애니메이션 활성화 여부"),
+                    ParameterInfo(name: "color", type: "UIColor", defaultValue: ".systemBlue", description: "파장 색상"),
+                    ParameterInfo(name: "duration", type: "TimeInterval", defaultValue: "2.0", description: "파장 1주기 시간"),
+                    ParameterInfo(name: "scale", type: "CGFloat", defaultValue: "1.5", description: "파장 최대 크기 비율")
+                ],
+                outputs: [],
+                performance: PerformanceProfile(classType: .linearPerFrame, recommendedMaxInstances: 5),
+                iconName: "waveform.circle"
+            )
+        case .rubberband:
+            return PresetMetadata(
+                id: "rubberband", category: "Advanced", title: "러버밴드 (고무줄 당기기)",
+                description: "드래그 시 물리적인 저항을 느끼게 하고 놓으면 원래 자리로 튕겨 돌아갑니다.",
+                inputs: [
+                    ParameterInfo(name: "tension", type: "CGFloat", defaultValue: "0.5", description: "고무줄 저항 강도"),
+                    ParameterInfo(name: "hapticsEnabled", type: "Bool", defaultValue: "false", description: "햅틱 피드백 활성화 여부")
+                ],
+                outputs: [],
+                performance: PerformanceProfile(classType: .cpuBound, recommendedMaxInstances: 5),
+                iconName: "arrow.up.and.down.and.arrow.left.and.right"
             )
         default:
             return PresetMetadata(

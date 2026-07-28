@@ -113,4 +113,36 @@ public extension View {
             GooeyModifier(blurRadius: blurRadius, isActive: isActive)
         )
     }
+
+    func animationKitSparkle(isTriggered: Bool, color: Color = .yellow, hapticsEnabled: Bool = false) -> some View {
+        self.overlay(
+            SparkleViewRepresentable(isTriggered: isTriggered, color: UIColor(color), hapticsEnabled: hapticsEnabled)
+                .allowsHitTesting(false)
+        )
+    }
+
+    func animationKitMarquee(text: String, duration: TimeInterval = 5.0) -> some View {
+        self.modifier(
+            MarqueeModifier(text: text, duration: duration, content: AnyView(self))
+        )
+    }
+
+    func animationKitProgressiveBlur(blurStyle: UIBlurEffect.Style = .regular, direction: ProgressiveBlurAnimation.Direction = .bottomToTop) -> some View {
+        self.overlay(
+            ProgressiveBlurViewRepresentable(blurStyle: blurStyle, direction: direction)
+                .allowsHitTesting(false)
+        )
+    }
+
+    func animationKitPulse(isActive: Bool = true, color: Color = .blue, duration: TimeInterval = 2.0, scale: CGFloat = 1.5) -> some View {
+        self.modifier(
+            PulseModifier(isActive: isActive, color: color, duration: duration, scale: scale)
+        )
+    }
+
+    func animationKitRubberband(tension: CGFloat = 0.5, hapticsEnabled: Bool = false) -> some View {
+        self.modifier(
+            RubberbandModifier(tension: tension, hapticsEnabled: hapticsEnabled, content: AnyView(self))
+        )
+    }
 }

@@ -120,8 +120,12 @@ We provide complex, production-ready presets out of the box. Click on each anima
   (드래그 기반 3D 패럴랙스 카드 효과. 프리미엄 카드 UI에 적합합니다.)
 - [**Typewriter**](docs/Animations/Typewriter.md): Character-by-character text reveal effect. Ideal for chatbot responses.  
   (한 글자씩 순서대로 나타나는 효과. 챗봇 응답 텍스트 표시에 적합합니다.)
-- [**Gooey**](docs/Animations/Gooey.md): Liquid viscous morphing effect using blur and high-contrast filters.  
-  (블러와 고대비 필터를 활용한 액체 점성 효과입니다.)
+- [Gooey (액체 모핑)](docs/Animations/Gooey.md)
+- [Sparkle (별빛 폭죽)](docs/Animations/Sparkle.md) - 트위터 좋아요 스타일 폭죽
+- [Marquee (전광판 무한 스크롤)](docs/Animations/Marquee.md) - 넘치는 텍스트 롤링 효과
+- [Progressive Blur (점진적 블러)](docs/Animations/ProgressiveBlur.md) - 고급스러운 Glassmorphism
+- [Pulse (파장 숨쉬기)](docs/Animations/Pulse.md) - 라이브 인디케이터
+- [Rubberband (고무줄 당기기)](docs/Animations/Rubberband.md) - 스프링 텐션 드래그 효과
 
 ---
 

@@ -31,7 +31,7 @@ public protocol SolarAnimatable: Sendable {
     var outputEffects: [ParameterInfo] { get }
     var iconName: String? { get }
 
-    func makeSwiftUIAnimation() -> SwiftUI.Animation
-    func makeUIKitCommands() -> [AnimatableLayerCommand]
-    func makeSwiftUIModifier() -> (AnyView) -> AnyView
+    @MainActor func makeSwiftUIAnimation() -> SwiftUI.Animation
+    @MainActor func makeUIKitCommands() -> [AnimatableLayerCommand]
+    @MainActor func makeSwiftUIModifier() -> @MainActor (AnyView) -> AnyView
 }

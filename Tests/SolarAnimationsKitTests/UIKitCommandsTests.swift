@@ -58,4 +58,44 @@ final class UIKitCommandsTests: XCTestCase {
             XCTFail("Expected .custom command")
         }
     }
+
+    @MainActor
+    func testSparkleCommands() throws {
+        let anim = SparkleAnimation(isTriggered: true)
+        let commands = anim.makeUIKitCommands()
+        XCTAssertEqual(commands.count, 1)
+        if case .custom = commands.first {} else { XCTFail("Expected .custom command") }
+    }
+
+    @MainActor
+    func testMarqueeCommands() throws {
+        let anim = MarqueeAnimation(text: "Test")
+        let commands = anim.makeUIKitCommands()
+        XCTAssertEqual(commands.count, 1)
+        if case .custom = commands.first {} else { XCTFail("Expected .custom command") }
+    }
+
+    @MainActor
+    func testProgressiveBlurCommands() throws {
+        let anim = ProgressiveBlurAnimation()
+        let commands = anim.makeUIKitCommands()
+        XCTAssertEqual(commands.count, 1)
+        if case .custom = commands.first {} else { XCTFail("Expected .custom command") }
+    }
+
+    @MainActor
+    func testPulseCommands() throws {
+        let anim = PulseAnimation()
+        let commands = anim.makeUIKitCommands()
+        XCTAssertEqual(commands.count, 1)
+        if case .custom = commands.first {} else { XCTFail("Expected .custom command") }
+    }
+
+    @MainActor
+    func testRubberbandCommands() throws {
+        let anim = RubberbandAnimation()
+        let commands = anim.makeUIKitCommands()
+        XCTAssertEqual(commands.count, 1)
+        if case .custom = commands.first {} else { XCTFail("Expected .custom command") }
+    }
 }
