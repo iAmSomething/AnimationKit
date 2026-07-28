@@ -1,32 +1,34 @@
-# RollingNumber Animation (Advanced)
+# Rolling Number Animation (Advanced)
 
-> RollingNumber 애니메이션에 대한 간단한 요약을 작성하세요. (Write a brief summary of the RollingNumber animation here.)
+> 슬롯머신처럼 숫자가 아래에서 위로 회전하며 변경되는 카운터 효과입니다.
 
 ## 🎞️ Demo / 데모
 
 ![RollingNumber Demo GIF Placeholder](../../Assets/rollingnumber.gif)
 
-*(이곳에 RollingNumber 애니메이션을 시연하는 GIF 이미지를 추가하세요 / Insert GIF image here)*
+*(이곳에 RollingNumber 애니메이션을 시연하는 GIF 이미지를 추가하세요)*
 
 ## 📝 Description / 상세 설명
 
-(이 애니메이션의 특징, 용도, 디자인 철학 등을 이곳에 자유롭게 작성하세요.)
-(Detail the features, use cases, and design philosophy of this animation here.)
+- **특징**: 각 자릿수별로 독립적인 스프링 애니메이션이 적용됩니다.
+- **용도**: 포인트 적립, 잔고 변동, 스코어 증가 등 수치의 변화를 역동적으로 보여줄 때 사용합니다.
+- **햅틱 연동**: 숫자가 변경되며 멈출 때마다 `triggerSelection()` 미세 진동을 발생시킵니다.
 
 ## 💻 Usage / 사용법
 
 ### SwiftUI
 
 ```swift
-// SwiftUI 사용 예시를 작성하세요.
-// Example for SwiftUI
+// SwiftUI 사용 예시
+Text("\(points)")
+    .animationKitRollingNumber(fromValue: 0, toValue: points, hapticsEnabled: true)
 ```
 
 ### UIKit
 
 ```swift
-// UIKit 사용 예시를 작성하세요.
-// Example for UIKit
+// UIKit 사용 예시
+scoreLabel.animationKitRollingNumber(fromValue: oldScore, toValue: newScore, hapticsEnabled: true)
 ```
 
 ---

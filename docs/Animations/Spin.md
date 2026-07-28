@@ -1,32 +1,31 @@
 # Spin Animation (Basic)
 
-> Spin 애니메이션에 대한 간단한 요약을 작성하세요. (Write a brief summary of the Spin animation here.)
+> 뷰가 360도로 지속해서 회전하는 효과입니다.
 
 ## 🎞️ Demo / 데모
 
 ![Spin Demo GIF Placeholder](../../Assets/spin.gif)
 
-*(이곳에 Spin 애니메이션을 시연하는 GIF 이미지를 추가하세요 / Insert GIF image here)*
+*(이곳에 Spin 애니메이션을 시연하는 GIF 이미지를 추가하세요)*
 
 ## 📝 Description / 상세 설명
 
-(이 애니메이션의 특징, 용도, 디자인 철학 등을 이곳에 자유롭게 작성하세요.)
-(Detail the features, use cases, and design philosophy of this animation here.)
+- **용도**: 로딩 스피너, 새로고침 버튼 아이콘.
 
 ## 💻 Usage / 사용법
 
 ### SwiftUI
 
 ```swift
-// SwiftUI 사용 예시를 작성하세요.
-// Example for SwiftUI
+// SwiftUI 사용 예시
+icon.animationKit(.spin, duration: 1.0)
 ```
 
 ### UIKit
 
 ```swift
-// UIKit 사용 예시를 작성하세요.
-// Example for UIKit
+// UIKit 사용 예시
+icon.animationKit(.spin)
 ```
 
 ---

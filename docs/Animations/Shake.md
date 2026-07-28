@@ -1,32 +1,31 @@
 # Shake Animation (Basic)
 
-> Shake 애니메이션에 대한 간단한 요약을 작성하세요. (Write a brief summary of the Shake animation here.)
+> 좌우로 빠르게 흔들리는 효과로 사용자에게 오류를 경고합니다.
 
 ## 🎞️ Demo / 데모
 
 ![Shake Demo GIF Placeholder](../../Assets/shake.gif)
 
-*(이곳에 Shake 애니메이션을 시연하는 GIF 이미지를 추가하세요 / Insert GIF image here)*
+*(이곳에 Shake 애니메이션을 시연하는 GIF 이미지를 추가하세요)*
 
 ## 📝 Description / 상세 설명
 
-(이 애니메이션의 특징, 용도, 디자인 철학 등을 이곳에 자유롭게 작성하세요.)
-(Detail the features, use cases, and design philosophy of this animation here.)
+- **용도**: 비밀번호 입력 오류, 양식 누락 등 부정적 피드백.
 
 ## 💻 Usage / 사용법
 
 ### SwiftUI
 
 ```swift
-// SwiftUI 사용 예시를 작성하세요.
-// Example for SwiftUI
+// SwiftUI 사용 예시
+view.animationKitShake(visible: hasError)
 ```
 
 ### UIKit
 
 ```swift
-// UIKit 사용 예시를 작성하세요.
-// Example for UIKit
+// UIKit 사용 예시
+view.animationKitShake()
 ```
 
 ---

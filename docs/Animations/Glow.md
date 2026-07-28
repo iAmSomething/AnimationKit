@@ -1,32 +1,31 @@
 # Glow Animation (Basic)
 
-> Glow 애니메이션에 대한 간단한 요약을 작성하세요. (Write a brief summary of the Glow animation here.)
+> 테두리나 그림자가 부드럽게 빛나는 효과입니다.
 
 ## 🎞️ Demo / 데모
 
 ![Glow Demo GIF Placeholder](../../Assets/glow.gif)
 
-*(이곳에 Glow 애니메이션을 시연하는 GIF 이미지를 추가하세요 / Insert GIF image here)*
+*(이곳에 Glow 애니메이션을 시연하는 GIF 이미지를 추가하세요)*
 
 ## 📝 Description / 상세 설명
 
-(이 애니메이션의 특징, 용도, 디자인 철학 등을 이곳에 자유롭게 작성하세요.)
-(Detail the features, use cases, and design philosophy of this animation here.)
+- **용도**: 선택된 카드 하이라이트, 현재 진행 중인 라이브 상태 표시.
 
 ## 💻 Usage / 사용법
 
 ### SwiftUI
 
 ```swift
-// SwiftUI 사용 예시를 작성하세요.
-// Example for SwiftUI
+// SwiftUI 사용 예시
+view.animationKitGlow(color: .yellow)
 ```
 
 ### UIKit
 
 ```swift
-// UIKit 사용 예시를 작성하세요.
-// Example for UIKit
+// UIKit 사용 예시
+view.animationKitGlow(color: .yellow)
 ```
 
 ---

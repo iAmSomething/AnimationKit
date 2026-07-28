@@ -1,32 +1,31 @@
 # Morph Animation (Basic)
 
-> Morph 애니메이션에 대한 간단한 요약을 작성하세요. (Write a brief summary of the Morph animation here.)
+> 하나의 형태나 크기에서 다른 형태로 부드럽게 모핑되는 효과입니다.
 
 ## 🎞️ Demo / 데모
 
 ![Morph Demo GIF Placeholder](../../Assets/morph.gif)
 
-*(이곳에 Morph 애니메이션을 시연하는 GIF 이미지를 추가하세요 / Insert GIF image here)*
+*(이곳에 Morph 애니메이션을 시연하는 GIF 이미지를 추가하세요)*
 
 ## 📝 Description / 상세 설명
 
-(이 애니메이션의 특징, 용도, 디자인 철학 등을 이곳에 자유롭게 작성하세요.)
-(Detail the features, use cases, and design philosophy of this animation here.)
+- **용도**: 플레이 버튼이 정지 버튼으로 변할 때, 리스트 셀 확장.
 
 ## 💻 Usage / 사용법
 
 ### SwiftUI
 
 ```swift
-// SwiftUI 사용 예시를 작성하세요.
-// Example for SwiftUI
+// SwiftUI 사용 예시
+view.animationKit(.morph)
 ```
 
 ### UIKit
 
 ```swift
-// UIKit 사용 예시를 작성하세요.
-// Example for UIKit
+// UIKit 사용 예시
+view.animationKit(.morph)
 ```
 
 ---
